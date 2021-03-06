@@ -1,116 +1,124 @@
-
-
 header.masthead {
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-    min-width: 100%;
-    /*height: 100% !important;*/
-    background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/background.jpeg");
-  height: 100vh !important;
-  
-  }
-  
-  /* Side Menu */
-  #sidebar-wrapper {
-    background: #CB2027;
-  }
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  min-width: 100%;
+  height: 800px;
+  min-height: 100vh !important;  
+  background-repeat: no-repeat;
+  background-image: url(../img/background.jpeg);
+  background-size: cover;
+  -moz-background-size: cover;  /* Firefox 3.6 */
+  background-position: center;  /* Internet Explorer 7/8 */
+}
+
+/* Side Menu */
+#sidebar-wrapper {
+  display: none;
+  background-color: #CB2027;
+}
 
 .service-icon {
-    color: #CB2027;
-  }
+  color: #CB2027;
+}
 
-  
 footer.footer .social-link {
-    background-color: #CB2027;
-  }
-  
+  background-color: #CB2027;
+}
+
 footer.footer .social-link:hover {
-    background-color: #a31b20;
-  }
-  
+  background-color: #a31b20;
+}
+
 a {
-    color: #CB2027;
-  }
-  
+  color: #CB2027;
+}
+
 a:hover, a:focus, a:active {
-    color: #a31b20;
-  }
-  
+  color: #a31b20;
+}
+
 .btn-primary {
-    background-color: #CB2027 !important;
-    border-color: #CB2027 !important;
-  }
-  
+  background-color: #CB2027 !important;
+  border-color: #CB2027 !important;
+}
+
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
-    background-color: #a31b20 !important;
-    border-color: #a31b20 !important;
-  }
-  
+  background-color: #a31b20 !important;
+  border-color: #a31b20 !important;
+}
+
 .bg-primary {
-    background-color: #CB2027 !important;
-  }
-  
-  .text-primary {
-    color: #CB2027 !important;
-  }
-  
+  background-color: #CB2027 !important;
+}
+
+.text-primary {
+  color: #CB2027 !important;
+}
+
 header.masthead img {
-    width: 45%;
-  }
+  width: 45%;
+}
 
-  .text-secondary {
-    color: #ddd !important;
-  }
-  
+.text-secondary {
+  color: #ddd !important;
+}
 
-  /* action class / portfolio area */
-  #action .container-fluid, #action .container-sm, #action .container-md, #action .container-lg, #action .container-xl {
-    max-width: 1920px;
-  }
-  #action .container-fluid .portfolio-box, #action .container-sm .portfolio-box, #action .container-md .portfolio-box, #action .container-lg .portfolio-box, #action .container-xl .portfolio-box {
-    position: relative;
-    display: block;
-  }
-  #action .container-fluid .portfolio-box .portfolio-box-caption, #action .container-sm .portfolio-box .portfolio-box-caption, #action .container-md .portfolio-box .portfolio-box-caption, #action .container-lg .portfolio-box .portfolio-box-caption, #action .container-xl .portfolio-box .portfolio-box-caption {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    bottom: 0;
-    text-align: center;
-    opacity: 0;
-    color: #fff;
-    background: rgba(203, 32, 39, 0.9);
-    transition: opacity 0.25s ease;
-    text-align: center;
-  }
-  #action .container-fluid .portfolio-box .portfolio-box-caption .project-category, #action .container-sm .portfolio-box .portfolio-box-caption .project-category, #action .container-md .portfolio-box .portfolio-box-caption .project-category, #action .container-lg .portfolio-box .portfolio-box-caption .project-category, #action .container-xl .portfolio-box .portfolio-box-caption .project-category {
-    font-family: "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-    font-size: 0.85rem;
-    font-weight: 600;
-    text-transform: uppercase;
-  }
-  #action .container-fluid .portfolio-box .portfolio-box-caption .project-name, #action .container-sm .portfolio-box .portfolio-box-caption .project-name, #action .container-md .portfolio-box .portfolio-box-caption .project-name, #action .container-lg .portfolio-box .portfolio-box-caption .project-name, #action .container-xl .portfolio-box .portfolio-box-caption .project-name {
-    font-size: 1.2rem;
-  }
-  #action .container-fluid .portfolio-box:hover .portfolio-box-caption, #action .container-sm .portfolio-box:hover .portfolio-box-caption, #action .container-md .portfolio-box:hover .portfolio-box-caption, #action .container-lg .portfolio-box:hover .portfolio-box-caption, #action .container-xl .portfolio-box:hover .portfolio-box-caption {
-    opacity: 1;
-  }
+/* action class / portfolio area */
+#action .container-fluid, #action .container-sm, #action .container-md, #action .container-lg, #action .container-xl {
+  max-width: 1920px;
+}
+#action .container-fluid .portfolio-box, #action .container-sm .portfolio-box, #action .container-md .portfolio-box, #action .container-lg .portfolio-box, #action .container-xl .portfolio-box {
+  position: relative;
+  display: block;
+}
+#action .container-fluid .portfolio-box .portfolio-box-caption, #action .container-sm .portfolio-box .portfolio-box-caption, #action .container-md .portfolio-box .portfolio-box-caption, #action .container-lg .portfolio-box .portfolio-box-caption, #action .container-xl .portfolio-box .portfolio-box-caption {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  opacity: 0;
+  color: #fff;
+  background: rgba(203, 32, 39, 0.9);
+  transition: opacity 0.25s ease;
+  text-align: center;
+}
+#action .container-fluid .portfolio-box .portfolio-box-caption .project-category, #action .container-sm .portfolio-box .portfolio-box-caption .project-category, #action .container-md .portfolio-box .portfolio-box-caption .project-category, #action .container-lg .portfolio-box .portfolio-box-caption .project-category, #action .container-xl .portfolio-box .portfolio-box-caption .project-category {
+  font-family: "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 0.85rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+#action .container-fluid .portfolio-box .portfolio-box-caption .project-name, #action .container-sm .portfolio-box .portfolio-box-caption .project-name, #action .container-md .portfolio-box .portfolio-box-caption .project-name, #action .container-lg .portfolio-box .portfolio-box-caption .project-name, #action .container-xl .portfolio-box .portfolio-box-caption .project-name {
+  font-size: 1.2rem;
+}
+#action .container-fluid .portfolio-box:hover .portfolio-box-caption, #action .container-sm .portfolio-box:hover .portfolio-box-caption, #action .container-md .portfolio-box:hover .portfolio-box-caption, #action .container-lg .portfolio-box:hover .portfolio-box-caption, #action .container-xl .portfolio-box:hover .portfolio-box-caption {
+  opacity: 1;
+}
 
-  #action .col-lg-4.col-sm-6 {
-    max-height: 300px;
-  }
-  
-  #action .col-lg-4.col-sm-6 {
-    display: flex;
-    justify-content: center;
-    height: 320px; /* or other desired height */
-    overflow: hidden;
-    align-items: center;
-  }
-  #action .col-lg-4.col-sm-6 img, #action .portfolio-box-caption {
-    flex: none; /* keep aspect ratio */
-  }  
+#action .col-lg-4.col-sm-6 {
+  max-height: 300px;
+}
+
+#action .col-lg-4.col-sm-6 {
+  display: flex;
+  justify-content: center;
+  height: 320px; /* or other desired height */
+  overflow: hidden;
+  align-items: center;
+}
+#action .col-lg-4.col-sm-6 img, #action .portfolio-box-caption {
+  flex: none; /* keep aspect ratio */
+}  
+#action a.portfolio-box {
+  height: 100%;
+}
+#action a.portfolio-box img {
+  object-fit: cover;
+  min-height: 100%;
+  min-width: 100%;
+}
