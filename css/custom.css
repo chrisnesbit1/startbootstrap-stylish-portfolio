@@ -14,45 +14,33 @@ header.masthead {
 /* Side Menu */
 #sidebar-wrapper {
   display: none;
-  background-color: #CB2027;
 }
 
-.service-icon {
-  color: #CB2027;
+.service-icon,
+a,
+.text-primary {
+  color: #CB2027 !important;
 }
 
-footer.footer .social-link {
-  background-color: #CB2027;
+#sidebar-wrapper,
+footer.footer .social-link,
+.btn-primary,
+.bg-primary {
+  background-color: #CB2027 !important;
 }
 
-footer.footer .social-link:hover {
-  background-color: #a31b20;
-}
-
-a {
-  color: #CB2027;
-}
-
+footer.footer .social-link:hover,
 a:hover, a:focus, a:active {
   color: #a31b20;
 }
 
 .btn-primary {
-  background-color: #CB2027 !important;
   border-color: #CB2027 !important;
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
   background-color: #a31b20 !important;
   border-color: #a31b20 !important;
-}
-
-.bg-primary {
-  background-color: #CB2027 !important;
-}
-
-.text-primary {
-  color: #CB2027 !important;
 }
 
 header.masthead img {
